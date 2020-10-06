@@ -7,6 +7,17 @@
 #######################################
 
 #######################################
+# PHP Debugger (xdebug|blackfire|none)
+
+PHP_DEBUGGER=xdebug
+
+  #######################################
+  # Context environment
+
+  # TYPO3
+TYPO3_CONTEXT=Development/Docker
+
+#######################################
 # Webserver
 
 # General
