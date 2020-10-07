@@ -11,10 +11,10 @@
 
 PHP_DEBUGGER=xdebug
 
-  #######################################
-  # Context environment
+#######################################
+# Context environment
 
-  # TYPO3
+# TYPO3
 TYPO3_CONTEXT=Development/Docker
 
 #######################################
@@ -24,9 +24,9 @@ TYPO3_CONTEXT=Development/Docker
 WEB_DOCUMENT_ROOT=/app/public/
 WEB_DOCUMENT_INDEX=index.php
 # (TYPO3 CLI entrypoint < 8 LTS)
-CLI_SCRIPT=php /app/web/typo3/cli_dispatch.phpsh
+#CLI_SCRIPT=php /app/web/typo3/cli_dispatch.phpsh
 # (TYPO3 CLI entrypoint >= 8 LTS)
-#CLI_SCRIPT=php /app/web/typo3/sysext/core/bin/typo3
+CLI_SCRIPT=php /app/web/typo3/sysext/core/bin/typo3
 
 #######################################
 # PHP settings
